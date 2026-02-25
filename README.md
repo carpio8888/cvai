@@ -13,12 +13,20 @@ All improvements follow strict global rules (see .github/copilot-instructions.md
 
 ## How to use
 
-1. **Paste your current CV** in markdown (.md) format into the repository as `resume.md`.
-   - If your CV is not in .md format, you can easily convert it using [apitemplate.io PDF Tools](https://apitemplate.io/pdf-tools/convert-markdown-to-pdf/).
-2. The system will automatically:
-   - Review your CV for compliance with global and individual rules.
-   - Generate `short-resume.md` and `long-resume.md` files, improving clarity, impact, and formatting.
-3. Use the generated files for your job applications.
+
+
+1. **Paste your current CV** in markdown (.md) format into the repository as `resume.md` (in the root folder).
+   - If your CV is not in .md format (e.g., PDF or DOCX), you can use Google Drive: upload your file, open it with Google Docs, then go to File > Download > Markdown (.md) to export it as markdown.
+
+2. *(Recommended)* **Add job offers and "not interested" info**:
+   - To help the AI tailor your CV, add job offers you are interested in as `.md` files in `docs/job-offers/` (see `docs/job-offers/info.md` for details).
+   - To specify skills, technologies, or roles you want to avoid, add `.md` files in `docs/not-interested/` (see `docs/not-interested/info.md`).
+   - These steps are optional but recommended for best results.
+
+3. **Run the agent command**: In agent mode, type `/cv-generation` to trigger the AI prompt for CV review and generation.
+   - This will review your CV for compliance with global and individual rules, and generate `short-resume.md` and `long-resume.md` files, improving clarity, impact, and formatting.
+
+4. Use the generated files for your job applications.
    - For better presentation, you can convert the generated `.md` files to PDF using [apitemplate.io PDF Tools](https://apitemplate.io/pdf-tools/convert-markdown-to-pdf/).
 
 ### Rules

@@ -4,7 +4,7 @@ description: 'Automated PR workflow: creates branch, commits with proper message
 
 # PR Command Automation Prompt
 
-When the user says just "PR", execute the following workflow using Github's MCP:
+Execute the following workflow using Github's MCP:
 
 1. Create a new branch with a simple, descriptive name related to the uncommitted changes and check it out.
 2. Add all changed files.
@@ -19,4 +19,4 @@ When the user says just "PR", execute the following workflow using Github's MCP:
 8. Check out the main branch again and pull the latest changes.
 9. Show closed PR link
 
-This workflow ensures consistent, clear, and traceable contributions. Always follow this process when the user requests a "PR".
+This workflow ensures consistent, clear, and traceable contributions.
