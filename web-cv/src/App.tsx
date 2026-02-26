@@ -2,7 +2,7 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import './App.scss';
-import resumeUrl from './assets/resumes/resume.md?url';
+const resumeUrl = import.meta.env.BASE_URL + 'resumes/resume.md';
 
 const THEME_KEY = 'cvai-theme';
 // Resume markdown content (should be loaded from file or API in production)
