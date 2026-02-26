@@ -1,5 +1,5 @@
-import { Profile } from './Profile';
-import { ContactCard } from './ContactCard';
+import { Profile } from '../Profile/Profile';
+import { ContactCard } from '../ContactCard/ContactCard';
 import styles from './Sidebar.module.scss';
 
 interface SidebarProps {
