@@ -1,0 +1,18 @@
+
+
+.footer {
+  margin-top: 3rem;
+  padding: 1.25rem 1rem;
+  border-top: 1px solid var(--border);
+  background: transparent;
+}
+.footerInner {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--fg);
+  font-size: var(--font-size-sm);
+  align-items: center;
+}

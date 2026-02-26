@@ -20,3 +20,4 @@ Execute the following workflow using Github's MCP:
 9. Show closed PR link
 
 This workflow ensures consistent, clear, and traceable contributions.
+Don't ask for github repo (owner/repo) or branch name, just generate them based on the changes and project context.

@@ -1,0 +1,21 @@
+
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  width: 100%;
+  min-height: 80vh;
+  gap: 1.5rem;
+}
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: var(--main-gutter-top) 1rem 3rem 0;
+  background: var(--bg);
+  min-width: 0;
+}
