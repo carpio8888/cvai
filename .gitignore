@@ -6,3 +6,9 @@ docs/job-offers/*
 !docs/job-offers/info.md
 docs/not-interested/*
 !docs/not-interested/info.md
+
+# website
+web-cv/node_modules
+web-cv/dist
+web-cv/dist-ssr
+web-cv/*.local
